@@ -1,5 +1,4 @@
 /* Overwriting global style */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +6,6 @@
 }
 
 /* Body */
-
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -41,7 +39,6 @@ main {
 }
 
 /* Landing section: 2 columns */
-
 .landing {
   display: flex;
   justify-content: space-between;
@@ -67,7 +64,6 @@ main {
 }
 
 /* Right column (form box) */
-
 form {
   display: flex;
   flex-direction: column;
@@ -81,7 +77,6 @@ form {
 }
 
 /* Input fields */
-
 form input {
     width: 100%;
     padding: 14px 16px;
@@ -90,8 +85,7 @@ form input {
     font-size: 17px;
 }
 
-/* Primary button (Log In) */
-
+/* Primary button (Log In button) */
 .btn.primary {
   background-color: #1877f2;
   color: white;
@@ -108,9 +102,7 @@ form input {
   background-color: #0c57b9;
 }
 
-
 /* Secondary button (Create new account) */
-
 .btn-secondary {
   background-color: #42b72a;
   color: white;
@@ -161,7 +153,6 @@ form::after {
 
 /* --- Footer Styles --- */
 .site-footer {
-  /* background-color: #fff; */
   font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 13px;
@@ -220,7 +211,6 @@ form::after {
   font-size: 12px;
   color: #999;
 }
-
 
 /* Responsive design for smaller screens */
 @media (max-width: 800px) {
