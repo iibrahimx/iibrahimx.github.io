@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim - AI Engineer & Data Scientist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <span class="logo-text">Ibrahim</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h3 class="hero-greeting">Hello, I'm</h3>
+          <h1 class="hero-title">Ibrahim</h1>
+          <h2 class="hero-subtitle">Data Scientist & AI Engineer</h2>
+          <p class="hero-description">
+            Computer Engineering graduate specializing in machine learning, deep
+            learning, and full-stack development. Passionate about building
+            intelligent systems and transitioning into AI engineering.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="code-snippet">
+            <div class="code-header">
+              <div class="code-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span>ai_model.py</span>
+            </div>
+            <div class="code-content">
+              <pre><code># Neural Network Architecture
+class NeuralNetwork(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layer1 = nn.Linear(784, 256)
+        self.layer2 = nn.Linear(256, 128)
+        self.layer3 = nn.Linear(128, 10)
+        
+    def forward(self, x):
+        x = F.relu(self.layer1(x))
+        x = F.relu(self.layer2(x))
+        x = self.layer3(x)
+        return x</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a Computer Engineering graduate with a passion for artificial
+              intelligence and machine learning. My journey in technology has
+              equipped me with a unique blend of theoretical knowledge and
+              practical skills in both data science and full-stack development.
+            </p>
+            <p>
+              Currently, I'm focused on training machine learning models and
+              exploring deep learning architectures. My goal is to transition
+              into an AI Engineering role where I can build scalable,
+              intelligent systems that solve real-world problems.
+            </p>
+            <p>
+              As a full-stack engineering student, I've developed strong
+              foundations in web technologies including HTML, CSS, JavaScript,
+              and React, which complement my data science expertise and enable
+              me to build end-to-end AI applications.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>15+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-card">
+              <h3>95%</h3>
+              <p>Model Accuracy</p>
+            </div>
+            <div class="stat-card">
+              <h3>2+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-card">
+              <h3>10+</h3>
+              <p>Technologies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-subtitle">
+          A comprehensive toolkit for building intelligent applications
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> ML & AI Frameworks</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">PyTorch</span>
+              <span class="skill-tag">TensorFlow</span>
+              <span class="skill-tag">scikit-learn</span>
+              <span class="skill-tag">Keras</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Jupyter</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-star"></i> Specializations</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Deep Learning</span>
+              <span class="skill-tag">Neural Networks</span>
+              <span class="skill-tag">Model Training</span>
+              <span class="skill-tag">Full-Stack Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          A showcase of my work in machine learning and full-stack development
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Image Classification with Deep Learning</h3>
+              <p>
+                Developed a convolutional neural network using PyTorch for
+                multi-class image classification with 95% accuracy on the test
+                dataset.
+              </p>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Deep Learning</span>
+              <span class="tech-tag">CNN</span>
+            </div>
+            <a href="#" class="project-link"
+              >View on GitHub <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Sentiment Analysis API</h3>
+              <p>
+                Built a full-stack web application with React frontend and Flask
+                backend for real-time sentiment analysis of social media posts.
+              </p>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">NLP</span>
+              <span class="tech-tag">API</span>
+            </div>
+            <a href="#" class="project-link"
+              >View on GitHub <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Predictive Maintenance Model</h3>
+              <p>
+                Created a machine learning model to predict equipment failures
+                using time-series data, reducing downtime by 30%.
+              </p>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">scikit-learn</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Time-Series</span>
+              <span class="tech-tag">ML</span>
+            </div>
+            <a href="#" class="project-link"
+              >View on GitHub <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Portfolio Web Application</h3>
+              <p>
+                Designed and developed a responsive portfolio website using
+                React and modern web technologies with smooth animations.
+              </p>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">HTML</span>
+            </div>
+            <a href="#" class="project-link"
+              >View on GitHub <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's discuss how we can work together</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+              Feel free to reach out through any of these channels. I'm always
+              open to discussing new projects, opportunities, or collaborations.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>youremail@example.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <p>linkedin.com/in/yourusername</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <div>
+                  <h4>GitHub</h4>
+                  <p>github.com/yourusername</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Send Me a Message</h3>
+            <form id="messageForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Your message..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="logo-text">Ibrahim</span>
+            <p>Data Scientist & AI Engineer</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h4>Connect with me</h4>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Ibrahim. All rights reserved.</p>
+          <p>
+            Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
